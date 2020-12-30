@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #F7F7F7;
+    color: #F7F7F7;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.header {
+    height: 7vh;
+    background-color: #263238;
+    color: #F7F7F7;
+    font-size: 25px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.button {
+    color: #F7F7F7;
+    text-align: center;
+    text-decoration: none;
+    padding: 3px;
+    background-image: linear-gradient(crimson, crimson);
+    background-size: 0 3px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-radius: 5%;
+    transition: all .5s cubic-bezier(0,.8,.37,.96);
+}
+
+.button:hover,
+.button:active {
+    background-size: 100% 3px, auto;
+}
+
+.headerp {
+    width: 33%;
+    height: 100%;
+    text-align: right;
+    float: left;
+}
+
+.headeram {
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    float: left;
+}
+
+.headercm {
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+
+.chriswalker {
+    height: 86vh;
+    background-color: #263238;
+    color: #F7F7F7;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 36vh;
+    padding-bottom: 50vh;
+}
+
+.chriswalker1 {
+    font-size: 40px;
+    font-weight: 900;
+    border-bottom: 3px solid #F7F7F7;
+    border-radius: 3px;
+    margin-left: 34vw;
+    margin-right: 34vw;
+}
+
+.chriswalker2 {
+    font-weight: 100;
+}
+
+.footer {
+    text-align: center;
+}
+
+.projectstop {
+    background-color: #263238;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 50vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.projectsbottom {
+    background-color: #263238;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    height: 50vh;
+}
+
+.project {
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+    transition: transform 0.5s, margin-right 0.5s, margin-left 0.5s;
+}
+
+.project:hover {
+    margin-left: 2.34vw;
+    margin-right: 2.34vw;
+    transform: scale(1.1);
+}
+
+.project:hover .projectimg {
+    opacity: 1;
+}
+
+.project:hover .projecttext {
+    opacity: 0;
+}
+
+.projectimg {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.projecttext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    color: #F7F7F7;
+    text-decoration: none;
+    float: left;
+    transition: opacity 0.5s;
+}
+
+.rpg {
+    background-position: center;
+    background-image: url("../images/RPG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rpg:hover {
+    background-image: url("../images/RPG.gif");
+}
+
+.recursion {
+    background-position: center;
+    background-image: url("../images/recursion.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.recursion:hover {
+    background-image: url("../images/recursion.gif");
+}
+
+.hive {
+    background-position: center;
+    background-image: url("../images/hive.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hive:hover {
+    background-image: url("../images/hive.gif");
+}
+
+.plugins {
+    background-position: center;
+    background-image: url("../images/plugins.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.plugins:hover {
+    background-image: url("../images/plugins.gif");
+}
+
+.aboutme {
+    height: 802px;
+}
+
+.aboutmeheader {
+    color: #263238;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    border-bottom: 3px solid #263238;
+    border-radius: 3px;
+}
+
+.aboutmebody {
+    color: #263238
+}
+
+.contactme {
+    background-color: #263238;
+    height: 196px;
+}
+
+.contactmeheader {
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 35vw;
+    margin-right: 35vw;
+    border-bottom: 3px solid #f7f7f7;
+    border-radius: 3px;
+    
+}
+
+.contactmebody1 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 36px;
+}
+
+.contactmebody2 {
+    text-align: right;
+    float: right;
+    margin-right: 10px;
+    margin-top: 36px;
+}
+
+.contactmegitlink {
+    color: inherit;
+    text-decoration: none;
+}
+
+.contactmeimg1 {
+    float: left;
+    margin-left: 10px;
+    height: 75%;
+    border-radius: 50%;
+}
+
+.contactmeimg2 {
+    float: right;
+    margin-right: 10px;
+    height: 75%;
+    border-radius: 50%;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #263238;
+    color: #F7F7F7;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    height: 100vh;
+}
+
+.vid {
+    position: relative;
+    display: block;
+    top: 19vh;
+    bottom: 0;
+    margin: auto;
+    height: 62vh;
+    width: 60vw;
+}
+
+.label {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.close {
+    position: absolute;
+    color: #F7F7F7;
+    float: right;
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 97vw;
+    text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+    color: #75ffbf;
+    text-decoration: none;
+    cursor: pointer;
+}

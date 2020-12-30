@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #263238;
+    color: #F7F7F7;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+    height: 100vh;
+}
+
+.pdf {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 20vw;
+    width: 80vw;
+    height: 100vh;
+}
+
+.close {
+    position: absolute;
+    color: #F7F7F7;
+    float: right;
+    font-size: 64px;
+    font-weight: bold;
+    margin-left: 97vw;
+    text-decoration: none;
+}
+
+.close:hover,
+.close:focus {
+    color: crimson;
+    text-decoration: none;
+    cursor: pointer;
+}
