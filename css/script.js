@@ -15,8 +15,8 @@ function show_blog_info(element, height) {
     let parent = element.parentElement.parentElement;
     let info = parent.childNodes[3];
 
-    info.style.height = height.toString() + "px";
-    parent.style.paddingBottom = "20px";
+    info.style.height = info.scrollHeight + 'px';
+    parent.style.paddingBottom = "8px";
 
     element.style.display = "none";
 }
