@@ -110,7 +110,7 @@ html {
 .h-divider {
     width: 90%;
     margin: 12px auto 0 auto;
-    height: 12px;
+    height: 6px;
     border-top: #b1b3b4 1px solid;
 }
 
@@ -132,17 +132,13 @@ html {
 }
 
 .up-arrow {
-    width: calc(100% - 40px);
-    max-width: calc(750px - 40px);
+    width: 100%;
+    max-width: 750px;
     min-width: 400px;
     margin: auto;
     text-align: center;
     font-size: 48px;
     cursor: pointer;
-}
-
-.up-arrow .h-divider {
-    height: 6px;
 }
 
 .blog-title-details {
