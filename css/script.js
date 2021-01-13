@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 });
 
-function show_blog_info(element, height) {
+function show_blog_info(element) {
     let parent = element.parentElement.parentElement;
     let info = parent.childNodes[3];
 
@@ -28,6 +28,9 @@ function hide_blog_info(element) {
     info.style.height = "0";
     parent.style.paddingBottom = "70px";
 
-    parent.childNodes[1].childNodes[5].style.display = "block";
+    // show open button
+    setTimeout(function() {
+        parent.childNodes[1].childNodes[5].style.display = "block";
+    }, 350);
 }
 
