@@ -114,7 +114,7 @@ html {
     border-top: #b1b3b4 1px solid;
 }
 
-.blog-title img {
+.blog-image {
     display: block;
     margin: 0 auto;
     width: 250px;
@@ -125,7 +125,7 @@ html {
     max-width: calc(750px - 40px);
     min-width: 400px;
     position: absolute;
-    margin: auto;
+    margin: 16px auto 0;
     text-align: center;
     font-size: 48px;
     cursor: pointer;
@@ -135,7 +135,7 @@ html {
     width: 100%;
     max-width: 750px;
     min-width: 400px;
-    margin: auto;
+    margin: 16px auto 0;
     text-align: center;
     font-size: 48px;
     cursor: pointer;
